@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import netmeds from "../../Assets/Projects/netmeds.png";
+import netmeds from "../../Assets/Projects/netmeds.jpg";
 import blinkit from "../../Assets/Projects/blinkit.png";
 
 
@@ -24,7 +24,8 @@ function Projects() {
               isBlog={false}
               title="Netmeds.com"
               description="Netmeds.com is leading E-Commerce website for all type of cosmetic products such as makeup, skin care, hair, fragrance's and tools and brush."
-              link="https://github.com/Shubh-Pawar007/Netmeds-Clone"
+              techStack="TechStack-ReactJS | JavaScript | NodeJs | HTML | CSS"
+              link="https://unrivaled-sprite-2be9c1.netlify.app/"
             />
           </Col>
 
@@ -33,8 +34,9 @@ function Projects() {
               imgPath={blinkit}
               isBlog={false}
               title="blinkit"
+              techStack="TechStack- JavaScript | HTML | CSS"
               description="Blinkit (formerly Grofers) is an Indian instant delivery service. Customers of the company use a mobile application to order groceries and essentials online."
-              link="https://github.com/Shubh-Pawar007/blinkit"
+              link="https://blink-it-by-arshad-gaurav-ayush-rohit-shubham.netlify.app/"
             />
           </Col>
 
