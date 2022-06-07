@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
 import Aboutcard from "./AboutCard";
-import shubh from "../../Assets/shubh.JPG";
+import shubh from "../../Assets/Shubham.png"; 
 
 function About() {
   return (
