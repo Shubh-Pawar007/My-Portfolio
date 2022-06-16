@@ -36,7 +36,7 @@ function App() {
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
@@ -45,8 +45,14 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/contacts" element={<Contacts />} />
 
-          {/* <Route path="*" element={<Navigate to="/"/>} /> */}
-        </Routes>
+          <Route path="*" element={<Navigate to="/"/>} />
+        </Routes> */}
+        <Home />
+        <About />
+        <Skills />
+        <Projects />
+        <Resume />
+        <Contacts/>
         <Footer />
       </div>
     </Router>

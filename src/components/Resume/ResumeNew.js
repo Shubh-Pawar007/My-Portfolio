@@ -10,7 +10,6 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 const resumeLink =  "https://github.com/SVickyPawar/portfolio/master/src/Assets/Vivek_Pawar_resume.pdf";
 
-  // "https://raw.githubusercontent.com/soumyajit4419/portfolio/master/src/Assets/Soumyajit_Behera-BIT_MESRA.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -20,7 +19,7 @@ function ResumeNew() {
   }, []);
 
   return (
-    <div>
+    <div id="resume">
       <Container fluid className="resume-section">
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>

@@ -6,7 +6,8 @@ import Toolstack from "../Skills/Toolstack";
 
 
 const Skills=()=>{
-    return(
+  return (
+      <div id="skills">
         <Container fluid className="about-section">
       <Particle />
       <Container>
@@ -25,7 +26,7 @@ const Skills=()=>{
         <Toolstack />
         </Container>
         </Container>
-       
+        </div>
         
     )
 }

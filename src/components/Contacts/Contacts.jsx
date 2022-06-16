@@ -11,8 +11,9 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 const Contacts=()=>{
-    return(
-        <Container fluid className="home-about-section" id="about">
+  return (
+      <div id="contact">
+        <Container fluid className="home-about-section" id="conta">
         <Particle />
             
         <Container>
@@ -67,7 +68,8 @@ const Contacts=()=>{
           </Col>
         </Row>
       </Container>
-    </Container>  
+      </Container>  
+      </div>
     )
 }
 

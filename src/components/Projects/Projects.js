@@ -8,6 +8,7 @@ import blinkit from "../../Assets/Projects/blinkit.png";
 
 function Projects() {
   return (
+    <div id="projects">
     <Container fluid className="project-section">
       <Particle />
       <Container>
@@ -43,7 +44,8 @@ function Projects() {
          
         </Row>
       </Container>
-    </Container>
+      </Container>
+      </div>
   );
 }
 
