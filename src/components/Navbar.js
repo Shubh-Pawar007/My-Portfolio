@@ -52,13 +52,13 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" >
-            <Nav.Item>
+            <Nav.Item style={{cursor:'pointer'}}>
               <Nav.Link as={Link} to="home" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            <Nav.Item style={{cursor:'pointer'}}>
               <Nav.Link
                 as={Link}
                 to="about"
@@ -68,7 +68,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
             
-            <Nav.Item>
+            <Nav.Item style={{cursor:'pointer'}}>
               <Nav.Link
                 as={Link}
                 to="skills"
@@ -81,7 +81,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            <Nav.Item style={{cursor:'pointer'}}>
               <Nav.Link
                 as={Link}
                 to="projects"
@@ -94,7 +94,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            <Nav.Item style={{cursor:'pointer'}}>
               <Nav.Link
                 as={Link}
                 to="resume"
@@ -104,7 +104,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            <Nav.Item style={{cursor:'pointer'}}>
               <Nav.Link
                 as={Link}
                 to="contact"
