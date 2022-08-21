@@ -28,7 +28,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "The best way to escape from the problem is to face them"{" "}
+            "The best way to escape from the problems is to face them"{" "}
           </p>
           <footer className="blockquote-footer">Shubham</footer>
         </blockquote>

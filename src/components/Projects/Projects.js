@@ -61,7 +61,7 @@ function Projects() {
               responsbiities="Areas of responsibility:
               Built web pages and integrated it with the frontend.
               Developed the Home and Payment Authentication page"
-                
+
               link="https://blink-it-by-arshad-gaurav-ayush-rohit-shubham.netlify.app/"
             />
           </Col>

@@ -19,36 +19,18 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> HTML,CSS,Javascript & React. </b>
-              </i>
+            I've always been interested in computers and the mechanism running behind the screen.
+            Passionate to learn new technologies and implement in new projects. I am now eager and excited for an opprtunity/role that demand the use of skills gained during my studies.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> 
-                <b className="purple">
-                 
-                </b>
-              </i>
+              My field of Interest's are building new Web Technologies and Products 
               <br />
               <br />
               Whenever possible, I will develope products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              with Node.js and Modern Javascript Library and Frameworks
+               like
+              React.js and Next.js
+             
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -57,56 +39,7 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
-        {/* <Row>
-          <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/SVickyPawar"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/SVicky006"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/vbpawar/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/i_m_s.vicky/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
-            </ul>
-          </Col>
-        </Row> */}
+        
       </Container>
     </Container>
   );
