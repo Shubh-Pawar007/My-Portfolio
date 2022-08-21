@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import netmeds from "../../Assets/Projects/netmeds.jpg";
 import blinkit from "../../Assets/Projects/blinkit.png";
+import SimpleStore from "../../Assets/Projects/SimpleStore.png"
 
 
 function Projects() {
@@ -32,6 +33,21 @@ function Projects() {
               Implemented filter and sorting function in the project"
                 
               link="https://unrivaled-sprite-2be9c1.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={SimpleStore}
+              isBlog={false}
+              title="Simple Store"
+              techStack="TechStack-ReactJS | JavaScript | NodeJs | HTML | CSS"
+              description="Simple Store is a collaborative & indeginious project built in a hackathon Event at Masai School. It is resource management web application for various retail shops"
+              responsbiities="Areas of responsibility:
+              Built authentication and integrated it with the frontend.
+              Developed the Landing Page and implemented filter functionality"
+                
+              link="https://simple-store-project-hackathon.netlify.app/"
             />
           </Col>
 
